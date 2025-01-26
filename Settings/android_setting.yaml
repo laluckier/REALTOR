@@ -1,0 +1,9 @@
+Android:
+    RemoteUrl: http://localhost:4723/wd/hub
+    DeviceName: emulator-5554
+    PlatformName: Android
+    PlatformVersion: "14"
+    AppPackage: ca.crea.app.consumer
+    AppActivity: ca.crea.app.consumer.MainActivity
+    AutomationName: UiAutomator2
+    NoReset: False
