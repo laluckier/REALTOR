@@ -1,0 +1,22 @@
+*** Variables ***
+
+${btn_filters}                                   //android.view.ViewGroup[@resource-id="x:id/page.listings.filters"]
+${mnu_residential}                               //android.view.ViewGroup[@content-desc="x:id/page.property_search.property_type_group.residential"]
+${mnu_commercial}                                //android.view.ViewGroup[@content-desc="x:id/page.property_search.property_type_group.commercial"]
+${btn_for_sale}                                  //android.view.ViewGroup[@content-desc="For Sale"]
+${btn_for_rent}                                  //android.view.ViewGroup[@content-desc="For Rent"]
+${btn_sold}                                      //android.view.ViewGroup[@content-desc="Sold"]
+${lbl_price_range}                               //android.widget.TextView[@text="Price range"]
+${ddl_price_min}                                 //android.view.ViewGroup[@resource-id="x:id/filters.range.min_dropdown"]
+${ddl_price_max}                                 //android.view.ViewGroup[@resource-id="x:id/filters.range.max_dropdown"]
+${pnl_range_price}                               //android.widget.ScrollView[@resource-id="x:id/dropdown.scrollview"]
+${lbl_selected_price}                            //android.widget.ScrollView[@resource-id="x:id/dropdown.scrollview"]//android.view.ViewGroup
+${lbl_rooms}                                     //android.widget.TextView[@text="Rooms"]
+${lbl_bedroom}                                   //android.widget.TextView[@text="Bedrooms"]
+${btn_decrease_bedroom}                          //android.widget.Button[@content-desc="Decrease bedroom count"]
+${lbl_number_of_bedroom}                         //android.widget.Button[@content-desc="Decrease bedroom count"]/../android.widget.TextView[@resource-id="x:id/options_sequence.value"]
+${btn_increase_bedroom}                          //android.widget.Button[@content-desc="Increase bedroom count"]
+${lbl_property_type}                             //android.view.ViewGroup[@resource-id="x:id/accordian.property_type.header"]
+${lbl_selected_property}                         //android.view.ViewGroup[contains(@content-desc,"x:id/${property_type}")]
+${lbl_number_results}                            //android.widget.TextView[contains(@text,"Results")]
+${btn_results}                                   //android.widget.Button[@resource-id="x:id/page.property_search.search_button"]
